@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: "Comic Neue";
+    color: black;
+}
+
+h1 {
+    font-size: 2.6em;
+    font-family: 'Comic Neue', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    line-height: 1.15em;
+}
+
+div {
+    /*padding: 4em 2em 3em 1em;*/
+}
+
+p {
+    margin: 0.5em 0.5em 0.5em 0em;
+    hyphens: none;
+}
+
+a {
+    color: white;
+}
+
+a:active a:focus, a:hover {
+    color: dodgerblue;
+}
+
+.container {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-5%);
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    color: black;
+    border-top: 1px solid ;
+    border-bottom: 1px solid ;
+}
+
+@media (max-width: 870px) {
+    body {font-size:17px;}
+    h1 {font-size:46px;}
+    .container {max-width: 80%;position: relative; display:inherit; transform: none; margin-top:0;}
+}
+
+@media (max-width: 746px) {
+    body {font-size:14px;}
+    h1 {font-size:35px;}
+    .container {max-width: 80%;position: relative; display:inherit; transform: none; margin-top:0;}
+}
+
+
+@media (min-width:870px) {
+    body {font-size:20px;}
+}
+
+.spin {
+    animation: spin 4s infinite linear;
+}
+
+@keyframes spin {
+    0%  {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
