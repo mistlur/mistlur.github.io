@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+    margin-top: 35vh;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: "Beth Ellen";
+    line-height: 1.2em;
+    border-bottom: 1px solid black;
+}
